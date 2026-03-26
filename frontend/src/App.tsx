@@ -24,15 +24,18 @@ function App() {
         setIsLoading(true);
 
         try {
-            const response = await fetch("http://localhost:8001/chat", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({
-                    message: message,
-                    thread_id: "taha_web_1",
-                    api_key: apiKey,
-                }),
-            });
+            const response = await fetch(
+                "https://ai-research-agent-api.onrender.com/chat",
+                {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        message: message,
+                        thread_id: "taha_web_1",
+                        api_key: apiKey,
+                    }),
+                },
+            );
 
             const data = await response.json();
 
