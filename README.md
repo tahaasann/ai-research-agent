@@ -1,5 +1,7 @@
 # 🤖 Autonomous AI Research Agent (Full-Stack)
 
+🚀 **Live Demo:** [https://ai-research-agent-alpha-orpin.vercel.app/](https://ai-research-agent-alpha-orpin.vercel.app/)
+
 A production-ready, full-stack AI application featuring an autonomous research agent. Built with modern, asynchronous architecture to handle LLM latency, complex state management, and seamless client-server communication.
 
 ## 🏛️ Architecture & Engineering Decisions
